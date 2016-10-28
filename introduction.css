@@ -1,0 +1,51 @@
+/* Frances Vu */
+/* introduction.css */
+/* CMPT 120 Project 1, October 27, 2016 */
+
+body{
+	text-align: center;
+	font-family: inconsolata;
+	background-color: azure;
+	background-image: url("leaves2.gif");
+}
+h1{
+	color: white;
+	background-color: black;
+	font-size: 80px;
+	font-family: castellar;
+}
+#name{
+	font-size: 20px;
+}
+h3{
+	font-size: 35px;
+}
+img{
+	height: 400px;
+	width: 400px;
+}
+ol{
+	text-align: left;
+	margin-left: 350px;
+}
+li{
+	font-size: 20px;
+}
+#description{
+	text-align: left;
+	border-style: dotted;
+	font-size: 20px;
+	border-color: grey;
+	border-width: 5px;
+	margin-right: 200px;
+	margin-left: 200px;
+	text-indent: 2.5em;
+}
+#rules{
+	font-weight: bold;
+	font-size: 25px;
+}
+#start{
+	font-size: 50px;
+	font-weight: bold;
+}
