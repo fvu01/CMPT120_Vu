@@ -1,5 +1,5 @@
 /* Frances Vu */
-/* tictactoe.css */
+/* tictactoe2.css */
 /* CMPT 120 Project 3, November 16, 2016 */
 
 body{
@@ -22,14 +22,12 @@ button{
 h1{
 	text-align: center;
 	font-family: castellar;
-	font-size: 75px;
+	font-size: 70px;
 }
 #currentplayer{
 	text-align: center;
-	font-family: inconsolata;
-	font-size: 40px;
+	font-size: 20px;
 }
 button{
 	font-size: 50px;
-	font-family: inconsolata;
 }
