@@ -26,10 +26,19 @@
 			<audio src="start.wav" id="start" preload="auto" autoplay="autoplay"></audio>
 			<audio src="bclicked.wav" id="bclicked" preload="auto"></audio>
 			<audio src="reset.wav" id="reset1" preload="auto"></audio>
+			<audio src="lose.wav" id="lose" preload="auto"></audio>
+			<audio src="win2.wav" id="auto_win" preload="auto"></audio>
+			<audio src="credits.wav" id="credits" preload="auto"></audio>
 			
 		</div>
 		
 		<form id="tictactoe">
+		
+			<img src="ghost.png" id="ghost" onclick="lose()" alt="ghost">
+			<img src="mushroom.png" id="mushroom" onclick="lose()" alt="mushroom">
+			<img src="heart.png" id="heart" onclick="auto_win()" alt="heart">
+			<img src="nyan.png" id="nyan" onclick="credits()" alt="nyan">
+			<a href="introduction.html"><img src="totoro.gif" id="totoro" alt="totoro"></a>
 		
 			<p id="currentplayer">X</p>
 		

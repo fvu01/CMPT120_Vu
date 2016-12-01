@@ -30,7 +30,6 @@ function set(idvalue) {
 	else {
 		bclicked.play();
 		alert("This button has already been clicked!");
-		bclicked.play();
 	}
 }
 
@@ -96,16 +95,47 @@ function resets() {
 		currentbutton.innerHTML = "";
 		reset1.play();
 		
-		var currentplayer = document.getElementById("currentplayer");
-		currentplayer.innerHTML = "X"
+		var player = document.getElementById("currentplayer");
+		player.innerHTML = "X";
 	}
 }
 
+function lose() {
+	var buttons	= ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"];
+	var lose = document.getElementById("lose");
+	
+	lose.play();
+	
+	for(var i = 0; i < buttons.length; i++ ) {
+		var currentbutton = document.getElementById(buttons[i]);
+		currentbutton.innerHTML = "";
+	}
+	var player = document.getElementById("currentplayer").innerHTML;
+	alert("Player " + player + " loses! Play again!");
+}
 
+function auto_win() {
+	var auto_win = document.getElementById("auto_win");
+	var player = document.getElementById("currentplayer").innerHTML;
+	
+	var buttons	= ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"];
+	
+	auto_win.play();
+	
+	for(var i = 0; i < buttons.length; i++ ) {
+		var currentbutton = document.getElementById(buttons[i]);
+		currentbutton.innerHTML = "";
+	}
+	var player = document.getElementById("currentplayer").innerHTML;
+	setTimeout(function(){alert("Player " + player + " wins! Play again!");}, 6000);
+}
 
-
-
-
+function credits() {
+	document.getElementById("credits").play();
+	alert("CMPT 120: Intro to Programming");
+	alert("Tic-Tac-Toe");
+	alert("Author: Frances Vu");
+}
 
 
 

@@ -13,7 +13,6 @@ h1 {
 	color: white;
 	background-color: black;
 	font-size: 50px;
-	font-family: "Press Start 2P"; 
 	border: solid;
 	border-color: white;
 	border-width: 10px;
@@ -30,11 +29,11 @@ h3 {
 	font-size: 20px;
 }
 
-img {
+#ttt {
 	height: 400px;
 	width: 400px;
 	float: left;
-	margin: 0px 100px 50px 100px;
+	margin: 0px 0px 0px 100px;
 }
 
 #deshead {
@@ -61,15 +60,10 @@ ol {
 }
 
 #starting {
-	height: 375px;
-	width: 500px;
+	margin-left: auto;
 	margin-right: auto;
-	margin-left: 500px;
-	margin-top: 500px;
-	margin-bottom: 200px;
-	float: left;
-	clear: right;
-	
+	margin-top: 450px;
+	margin-bottom: 250px;
 }
 
 #stepshead {
