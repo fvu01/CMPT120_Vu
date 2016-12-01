@@ -89,16 +89,18 @@ function check_win() {
 
 function resets() {
 	var buttons	= ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"];
+	var reset1 = document.getElementById("reset1");
 	
 	for(var i = 0; i < buttons.length; i++ ) {
 		var currentbutton = document.getElementById(buttons[i]);
 		currentbutton.innerHTML = "";
+		reset1.play();
 		
 		var currentplayer = document.getElementById("currentplayer");
 		currentplayer.innerHTML = "X"
 	}
 }
-resets();
+
 
 
 

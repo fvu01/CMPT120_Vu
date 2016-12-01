@@ -3,9 +3,9 @@
 /* CMPT 120 Project 1, November 30, 2016 */
 
 body {
-	text-align: center;
-	background-color: black;
 	color: white;
+	background-color: black;
+	text-align: center;
 	font-family: "Press Start 2P";
 }
 
@@ -38,16 +38,16 @@ img {
 }
 
 #deshead {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #description {
 	text-align: left;
 	text-indent: 2.5em;
+	font-size: 16px;
 	border-style: dotted;
 	border-width: 5px;
 	border-color: white;
-	font-size: 18px;
 	margin-left: 700px;
 	margin-right: 100px;
 	padding: 10px;
@@ -55,9 +55,9 @@ img {
 
 ol {
 	text-align: left;
+	font-size: 16px;
 	margin-left: 200px;
 	margin-right: 50px;
-	font-size: 16px
 }
 
 #starting {
@@ -72,13 +72,12 @@ ol {
 	
 }
 
-#rules {
+#stepshead {
 	font-size: 20px;
 }
 
 .steps {
 	margin-left: 500px;
-	
 }
 
 
