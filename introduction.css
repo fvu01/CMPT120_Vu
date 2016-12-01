@@ -1,51 +1,84 @@
 /* Frances Vu */
 /* introduction.css */
-/* CMPT 120 Project 1, October 27, 2016 */
+/* CMPT 120 Project 1, November 30, 2016 */
 
-body{
+body {
 	text-align: center;
-	font-family: inconsolata;
-	background-color: azure;
-	background-image: url("leaves1.gif");
+	background-color: black;
+	color: white;
+	font-family: "Press Start 2P";
 }
-h1{
+
+h1 {
 	color: white;
 	background-color: black;
-	font-size: 80px;
-	font-family: castellar;
+	font-size: 50px;
+	font-family: "Press Start 2P"; 
+	border: solid;
+	border-color: white;
+	border-width: 10px;
+	padding: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
-#name{
+
+h3 {
+	font-size: 30px;
+}
+
+#name {
 	font-size: 20px;
 }
-h3{
-	font-size: 35px;
-}
-img{
+
+img {
 	height: 400px;
 	width: 400px;
+	float: left;
+	margin: 0px 100px 50px 100px;
 }
-ol{
-	text-align: left;
-	margin-left: 350px;
-}
-li{
-	font-size: 20px;
-}
-#description{
-	text-align: left;
-	border-style: dotted;
-	font-size: 20px;
-	border-color: grey;
-	border-width: 5px;
-	margin-right: 200px;
-	margin-left: 200px;
-	text-indent: 2.5em;
-}
-#rules{
-	font-weight: bold;
+
+#deshead {
 	font-size: 25px;
 }
-#start{
-	font-size: 50px;
-	font-weight: bold;
+
+#description {
+	text-align: left;
+	text-indent: 2.5em;
+	border-style: dotted;
+	border-width: 5px;
+	border-color: white;
+	font-size: 18px;
+	margin-left: 700px;
+	margin-right: 100px;
+	padding: 10px;
 }
+
+ol {
+	text-align: left;
+	margin-left: 200px;
+	margin-right: 50px;
+	font-size: 16px
+}
+
+#starting {
+	height: 375px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: 500px;
+	margin-top: 500px;
+	margin-bottom: 200px;
+	float: left;
+	clear: right;
+	
+}
+
+#rules {
+	font-size: 20px;
+}
+
+.steps {
+	margin-left: 500px;
+	
+}
+
+
