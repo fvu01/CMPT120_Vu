@@ -90,13 +90,18 @@ function resets() {
 	var buttons	= ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"];
 	var reset1 = document.getElementById("reset1");
 	
+	var player = document.getElementById("currentplayer").innerHTML;
+	if(player == "X") {
+		document.getElementById("currentplayer").innerHTML = "O";
+	}
+	else {
+		document.getElementById("currentplayer").innerHTML = "X";
+	}
+	
 	for(var i = 0; i < buttons.length; i++ ) {
 		var currentbutton = document.getElementById(buttons[i]);
 		currentbutton.innerHTML = "";
 		reset1.play();
-		
-		var player = document.getElementById("currentplayer");
-		player.innerHTML = "X";
 	}
 }
 
@@ -110,6 +115,7 @@ function lose() {
 		var currentbutton = document.getElementById(buttons[i]);
 		currentbutton.innerHTML = "";
 	}
+	
 	var player = document.getElementById("currentplayer").innerHTML;
 	alert("Player " + player + " loses! Play again!");
 }
@@ -126,6 +132,7 @@ function auto_win() {
 		var currentbutton = document.getElementById(buttons[i]);
 		currentbutton.innerHTML = "";
 	}
+	
 	var player = document.getElementById("currentplayer").innerHTML;
 	setTimeout(function(){alert("Player " + player + " wins! Play again!");}, 6000);
 }
